@@ -1,0 +1,28 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saif Carpet - Handcrafted Jute &amp; Braided Rugs</title>
+<meta name="description" content="Saif Carpet: handcrafted braided, crochet and printed jute rugs. Order online with delivery slot, live location and secure payment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a href="#/" class="logo">Saif<span>Carpet</span></a>
+    <form id="navSearch" class="nav-search"><input id="navQ" type="search" placeholder="Search rugs, colours, codes..."><button aria-label="Search">&#128269;</button></form>
+    <nav class="links" id="links"></nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="foot"><div class="wrap">
+  <b>Saif Carpet</b> - handcrafted jute, braided &amp; crochet rugs. Eco-friendly, durable, made to feel like home.<br>
+  <small>&copy; Saif Carpet. All rights reserved.</small>
+</div></footer>
+<div id="toast" class="toast"></div>
+<script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
